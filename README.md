@@ -40,8 +40,7 @@ Before you begin, ensure that you have the following prerequisites installed loc
   - sqlite3
   - xmltodict
   - requests
-  - vosk
-  - pydub
+  
 
 Please follow the [Airflow installation guide](https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html) to install Apache Airflow successfully.
 
