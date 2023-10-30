@@ -4,6 +4,9 @@
 
 In this project, we'll create a data pipeline using Apache Airflow to download podcast episodes and automatically transcribe them using speech recognition. The results will be stored in a SQLite database, making it easy to query and analyze the transcribed podcast content.
 
+![pipline](https://github.com/3amory99/Podcust-Summary-Data-Pipeline-Using-Airflow/blob/master/outputs/pipeline.png)
+
+
 While this project doesn't strictly require the use of Apache Airflow, it offers several advantages:
 
 - We can schedule the project to run on a daily basis.
@@ -51,6 +54,20 @@ During the project, we'll download the required data, including a language model
 ## Code
 
 You can access the project code in the [code directory](https://github.com/3amory99/Podcust-Summary-Data-Pipeline-Using-Airflow.git).
+
+## Project Screenshots
+
+* airflow database sqlite connection
+  
+   ![sqlite connection](https://github.com/3amory99/Podcust-Summary-Data-Pipeline-Using-Airflow/blob/master/outputs/airflow-sqlite.png)
+
+* Dag
+  
+   ![dag](https://github.com/3amory99/Podcust-Summary-Data-Pipeline-Using-Airflow/blob/master/outputs/dag.png)
+
+* Get Episodes Task output
+  
+   ![getEpisodes](https://github.com/3amory99/Podcust-Summary-Data-Pipeline-Using-Airflow/blob/master/outputs/get-episodes.png)
 
 ## Project Usage
 
